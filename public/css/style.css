@@ -1,0 +1,210 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#images-1 {
+    width: 40px;
+    height: 40px;
+}
+
+#navbar-container {
+    padding: 10px;
+    background-color: #213555;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+}
+
+#navbar h4 {
+    font-weight: 700;
+    color: #f0f0f0;
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+#list-konten {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 50px;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#list-konten a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#data-diri {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#213555, #ffffff80),
+        url("../images/bg-atas.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 100px;
+}
+
+#content1-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 15px;
+}
+
+#content1-kiri h4,
+h1 {
+    font-weight: 700;
+}
+
+#content1-kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 15px;
+}
+
+#latar-belakang {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #213555;
+    color: #f0f0f0;
+}
+
+#container-2 {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#content2-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    margin: 15px;
+    padding-right: 20px;
+}
+
+#content2-kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+
+#progress-bar {
+    width: 400px;
+    height: 20px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+#progress-1 {
+    height: 100%;
+    width: 80%;
+    background-color: #f0f0f0;
+}
+
+#progress-2 {
+    height: 100%;
+    width: 60%;
+    background-color: #f0f0f0;
+}
+
+#progress-3 {
+    height: 100%;
+    width: 90%;
+    background-color: #f0f0f0;
+}
+
+#progress-4 {
+    height: 100%;
+    width: 70%;
+    background-color: #f0f0f0;
+}
+
+#portofolio {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#content-3 {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+#button-more1 {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    color: #213555;
+}
+
+#button-more2 {
+    margin-top: 20px;
+    background-color: #213555;
+}
