@@ -173,6 +173,9 @@ class LoginRegisterController extends Controller
         if($request->file('photos')){
             if($request->oldImage){
                 Storage::delete($request->oldImage);
+                Storage::delete('thumbnail/'.$request->oldThumbnail);
+                Storage::delete('thumbnail/'.$request->oldMediumthumbnail);
+                Storage::delete('thumbnail/'.$request->oldLargethumbnail);
             }
             $filenameWithExt = $request->file('photos')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
