@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginRegisterController;
 use App\Http\Controllers\web_controller;
 use App\Http\Controllers\CVController;
+use App\Http\Controllers\GreetController;
 use App\Http\Controllers\SendEmailController;
 
 /*
@@ -34,3 +35,5 @@ Route::controller(LoginRegisterController::class)->group(function() {
     Route::get('/edit/{id}', 'edit')->name('edit');
     Route::put('/edit/{id}', 'update')->name('update');
 });
+
+Route::get('/greet', [GreetController::class, 'greet'])->name('greet');
